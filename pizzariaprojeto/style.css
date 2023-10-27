@@ -49,7 +49,7 @@ hero a {
   border-radius: 20px;
 }
 
-main h2 {
+#menu h2 {
   text-align: center;
   padding: 20px;
 }
@@ -106,23 +106,42 @@ footer a {
 
 /*Página de cadastro*/
 
+.formulario h2 {
+  margin-left: 30px;
+}
+
+.btform {
+  margin: 20px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #c91d1d;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+}
+
 .form {
-  display: grid;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
   padding: 20px 40px;
   margin-top: 20px;
-  margin-left: 80px;
   margin-bottom: 20px;
 }
 
 input {
   font-size: 1rem;
   margin-top: 10px;
+  width: 50%;
+}
+
+label {
+  margin-top: 20px;
 }
 
 textarea {
   margin-top: 10px;
   font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
 }
 
 .end {
